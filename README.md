@@ -1,3 +1,7 @@
+![Screenshot (6)](https://github.com/heman113/dashboard/assets/61104644/99f5f576-109b-4a15-94c0-41d734dd2f68)
+
+![Screenshot (7)](https://github.com/heman113/dashboard/assets/61104644/95a128c0-c046-44dd-883a-0b563b92fdb3)
+
 # Dashboard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
