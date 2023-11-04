@@ -1,0 +1,12 @@
+<div class="top-widgets">
+<div *ngFor="let card of topCards; let i = index" [ngClass]="{ 'blue-card': i === 0, 'white-card': i !== 0 }">
+    <div class="widget-content">
+      <div class="content-value">{{card.value}}%</div>
+      <div class="content-text">{{card.header}}</div>
+      <div class="content-subtext">{{card.sub_header}}</div>
+    </div>
+    <div class="widget-icon">
+        <i class="fa-solid fa-download"></i>
+    </div>
+</div>
+</div>

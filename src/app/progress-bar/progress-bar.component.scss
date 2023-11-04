@@ -1,0 +1,13 @@
+.progress-bar {
+    height: 10px;
+    border-radius: 3px;
+    transition: width 0.3s;
+}
+
+.label {
+    position: absolute;
+    right: 0;
+    top: 0%;
+    transform: translateX(-50%);
+    font-size: 10px;
+}

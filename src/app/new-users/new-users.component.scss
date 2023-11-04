@@ -1,0 +1,61 @@
+.container{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    height: 100%;
+    .heading{
+        padding: 25px;
+    }
+    .users-table{
+        padding: 10px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        tr{
+            padding: 5px;
+        }
+        th, td {
+            padding: 6px;
+            text-align: center;
+            font-size: 13px;
+            width: 25%;
+            // app-progress-bar{
+            //     height: 3px;
+            // }
+            .progress-bar{
+                width: 100%;
+                position: relative;
+            }
+        }
+        .name{
+            text-align: left;
+            .user-name{
+                font-weight: 800;
+            }
+            .user-country{
+                font-size: 12px;
+            }
+        }
+        .btn-div{
+            width: 100%;
+            .blue-btn{
+                width: 100%;
+                background-color: #506DE2;
+                border: none;
+                padding: 5px;
+                color: white;
+                border-radius: 3px;
+            }
+            .white-btn{
+                width: 100%;
+                background-color: #F0F3F9;
+                border: none;
+                border-radius: 3px;
+                padding: 5px;
+                color: #92969c;
+            }
+        }
+        
+    }
+}

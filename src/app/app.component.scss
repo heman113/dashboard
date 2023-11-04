@@ -1,0 +1,17 @@
+.main-container {
+    display: flex;
+    .side-nav {
+      width: 80px;
+      min-height: calc(100vh - 80px);
+      background-color: #fff;
+      color: #fff;
+      margin-top: 80px;
+    }
+    .main {
+      padding: 30px;
+      width: 100%;
+      background-color: #cad9f1;
+      margin-top: 80px;
+    //   margin-left: 4px;
+    }
+  }

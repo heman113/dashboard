@@ -1,0 +1,14 @@
+.nav-items{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 40px;
+    align-items: center;
+    .item{
+        color: #AFB8BF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+    }
+}

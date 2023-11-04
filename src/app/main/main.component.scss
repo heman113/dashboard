@@ -1,0 +1,32 @@
+.top-section{
+    margin: 20px;
+}
+.mid-section{
+    display: flex;
+    margin: 20px;
+    margin-top: 40px;
+    justify-content: space-between;
+    .recent-orders{
+        width: 60%;
+        height: 420px;
+    }
+    .new-users{
+        width: 35%;
+        height: 420px;
+    }
+}
+.bottom-section{
+    display: flex;
+    margin: 20px;
+    margin-top: 40px;
+    justify-content: space-between;
+    .sales-statistics{
+        width: 35%;
+    }
+    .balance-overview{
+        width: 35%
+    }
+    .top-products{
+        width: 25%;
+    }
+}

@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="heading">
+        <h3>Recent Orders</h3>
+    </div>
+    <div class="order-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Customer</th>
+                    <th>Products</th>
+                    <th>Delivery Date</th>
+                    <th>Status</th>
+                    <th>Tracking No#</th>
+                    <th>Shipping</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let order of recentOrders|slice:0:8; let i = index">
+                    <td>{{i+1}}</td>
+                    <td>{{order.name}}</td>
+                    <td>{{order.product}}</td>
+                    <td>{{order.delivery_date.split('T')[0]}}</td>
+                    <td>
+                        <div [ngClass]="{ 'green': order.status === 'Paid', 'red': order.status === 'Failed' , 'purple': order.status ==='Pending'}">
+                            {{order.status}}
+                        </div>
+                    </td>
+                    <td>{{order.tracking_no}}</td>
+                    <td>{{order.shipping}}</td>
+                    <td>X</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

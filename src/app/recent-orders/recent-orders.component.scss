@@ -1,0 +1,39 @@
+.container{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    height: 100%;
+    .heading{
+        padding: 25px;
+    }
+    .order-table{
+        padding: 10px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        tr{
+            padding: 5px;
+        }
+        th, td {
+            padding: 6px;
+            text-align: center;
+            font-size: 13px;
+        }
+        .green{
+            background-color: #30CE75;
+            border-radius: 3px;
+            color: #fff;
+        }
+        .red{
+            background-color: #EA586B;
+            border-radius: 3px;
+            color: #fff;
+        }
+        .purple{
+            background-color: #7782A2;
+            border-radius: 3px;
+            color: #fff;
+        }
+    }
+}
